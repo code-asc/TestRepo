@@ -1,0 +1,6 @@
+ALTER DATABASE [$(DatabaseName)]
+    ADD FILEGROUP [PARTITIONTEST_4];
+
+
+GO
+

@@ -1,0 +1,6 @@
+ALTER DATABASE [$(DatabaseName)]
+    ADD FILEGROUP [optimized_group] CONTAINS MEMORY_OPTIMIZED_DATA;
+
+
+GO
+

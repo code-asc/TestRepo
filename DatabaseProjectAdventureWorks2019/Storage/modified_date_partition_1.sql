@@ -1,0 +1,7 @@
+CREATE PARTITION SCHEME [modified_date_partition]
+    AS PARTITION [modified_date_partition]
+    TO ([PARTITIONTEST], [PARTITIONTEST_2], [PARTITIONTEST_3], [PARTITIONTEST_4], [PARTITIONTEST_5], [PRIMARY]);
+
+
+GO
+
